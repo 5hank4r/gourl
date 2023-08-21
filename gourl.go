@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run urlexgo.go <custom_keyword>")
+		fmt.Println("Usage: go run gourl.go <custom_keyword>")
 		os.Exit(1)
 	}
 
